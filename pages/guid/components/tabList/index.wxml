@@ -1,0 +1,10 @@
+<view class="tabs-container">
+  <!-- <van-image width="100" height="100" fit="contain" src="https://img.yzcdn.cn/vant/cat.jpeg" /> -->
+  <!-- <image src="https://img.yzcdn.cn/vant/cat.jpeg"></image> -->
+  <view class="image-wrap">
+    <view class="image-item" wx:for="{{9}}">
+       <image src="https://img.yzcdn.cn/vant/cat.jpeg" mode='widthFix'></image>
+       <view>皮肤类型</view>
+    </view>
+  </view>
+</view>

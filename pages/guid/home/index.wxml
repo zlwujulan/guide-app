@@ -1,0 +1,32 @@
+<view class="container">
+ <view>
+      <van-search
+      value="{{ value }}"
+      label=""
+      placeholder="请输入关键词"
+      use-action-slot
+      bind:change="onChange"
+      bind:search="onSearch"
+    >
+      <view slot="action" bind:tap="onClick">搜索</view>
+    </van-search>
+    <view class="keywords">
+      <text>关键词1</text>
+      <text>关键词1</text>
+      <text>关键词1</text>
+      <text>关键词1</text>
+    </view>
+    <view class="tabs">
+      <van-tabs type="card" swipe-threshold="3" swipeable="true" nav-class="tabsSty" tab-class="tab" title-inactive-color="#333" tab-active-class="activeSty">
+      <van-tab title="当季主推">
+        <tab-list></tab-list>
+      </van-tab>
+      <van-tab title="皮肤专业">内容 2</van-tab>
+      <van-tab title="客户见证">内容 3</van-tab>
+      <van-tab title="护理项目">内容 1</van-tab>
+      <van-tab title="产品项目">内容 2</van-tab>
+      <van-tab title="品牌宣传">内容 3</van-tab>
+    </van-tabs>
+    </view>
+ </view>
+</view>

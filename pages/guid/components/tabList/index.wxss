@@ -1,0 +1,28 @@
+/* pages/guid/components/tabList/index.wxss */
+.tabs-container{
+  margin: 30rpx;
+
+}
+.image-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (min-width: 700px) {
+  .image-item{
+    width: 31%;
+    /* margin-left: 1%; */
+    margin-top: 30rpx;
+  }      
+}
+@media screen and (max-width: 700px) {
+  .image-item{
+    width: 49%;
+    /* margin-left: 1%; */
+    margin-top: 30rpx;
+  }     
+}
+
+.image-item image{
+  width: 100%;
+}

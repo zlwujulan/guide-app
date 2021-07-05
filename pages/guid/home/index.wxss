@@ -1,0 +1,33 @@
+/* pages/guid/home/index.wxss */
+.keywords text{
+  /* width: 100rpx; */
+  /* height: 48rpx; */
+  /* line-height: 48rpx; */
+  text-align: center;
+  border: 1px solid #cccccc;
+  border-radius: 30rpx;
+  font-size:26rpx;
+  padding: 5rpx 30rpx;
+  margin-left: 30rpx;
+  display: inline-block;
+  margin-bottom: 20rpx;
+}
+.tabs{
+  margin-top: 30rpx;
+}
+.tabsSty{
+  border: none !important;
+  /* background: chartreuse; */
+}
+.activeSty{
+  background: transparent !important;
+  color: red !important;
+  border-bottom: 1px solid red !important;
+}
+/* .van-tabs__wrap{
+  border: 1px solid red;
+} */
+.tab{
+  border: 1px solid #cccccc;
+  border-right: none !important;
+}
